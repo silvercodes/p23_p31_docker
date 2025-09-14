@@ -36,6 +36,12 @@ docker exec -it <container_name> bash
 docker run -d -p 8080:80 --name web_con nginx
 
 docker run -d --name web_con -p 8080:80 --memory=512m --cpus=1 nginx
+
+docker run -it --rm --name web ubuntu ls -la
+
+ docker inspect web
+
+ docker stats web
 ```
 
 ## Лайфхаки
