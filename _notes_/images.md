@@ -78,3 +78,15 @@ docker load -i my_img.tar
 # Просмотр истории образа
 docker history my_img:latest
 ```
+
+### Анализ слоёв образа
+```bash
+# Просмотр истории сборки
+docker history my_img
+
+# Просмотр информации об образе
+docker inspect my_img
+
+# Анализ размера слоев + сводная информация по дисковому пространству
+docker system df -v
+```

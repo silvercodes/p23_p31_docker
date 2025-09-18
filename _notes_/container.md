@@ -82,6 +82,9 @@ docker stats <container_name>
 
 # Копирование файлов между хостом и контейнером
 docker cp file.txt <container_name>:/path/in/container
+
+# Смотрим изменения через docker diff
+docker diff <container_name>
 ```
 
 ## Простые примеры
