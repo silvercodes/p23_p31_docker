@@ -1,0 +1,53 @@
+
+services:
+    nginx:
+        build: ./nginx
+        ports:
+            - "80:80"
+        depends_on:
+            - nodejs-api
+        #     - php-fpm
+        networks:
+            - frontend-network
+            - backend-network
+        volumes:
+            - nodejs-files:/var/www/files:ro
+
+    nodejs-api:
+        build: ./nodejs-api
+        depends_on:
+            - mysql-db
+        networks:
+            - backend-network
+        volumes:
+            - nodejs-files:/app/files
+        environment:
+            MYSQL_HOST: mysql-db
+            MYSQL_USER: root
+            MYSQL_ROOT_PASSWORD: rootpassword
+            MYSQL_DB: file_server
+
+    mysql-db:
+        image: mysql:8.0
+        restart: unless-stopped
+        networks:
+            - backend-network
+        volumes:
+            - mysql_data:/var/lib/mysql
+            - ./db-scripts/init-mysql.sql:/docker-entrypoint-initdb.d/init-mysql.sql
+        environment:
+            MYSQL_ROOT_PASSWORD: rootpassword
+            MYSQL_DATABASE: file_server
+
+    # php-fpm:
+
+    # postgres-db:
+
+volumes:
+    mysql_data:
+    postgres_data:
+    nodejs-files:
+
+networks:
+    frontend-network:
+    backend-network:
