@@ -19,6 +19,8 @@ services:
             - mysql-db
         networks:
             - backend-network
+        ports:
+            - '3000:3000'
         volumes:
             - nodejs-files:/app/files
         environment:
@@ -30,6 +32,8 @@ services:
     mysql-db:
         image: mysql:8.0
         restart: unless-stopped
+        ports:
+            - "9999:3306"       # FOR DEBUG !!!
         networks:
             - backend-network
         volumes:
