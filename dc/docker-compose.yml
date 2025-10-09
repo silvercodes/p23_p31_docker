@@ -6,7 +6,7 @@ services:
             - "80:80"
         depends_on:
             - nodejs-api
-        #     - php-fpm
+            - php-fpm
         networks:
             - frontend-network
             - backend-network
@@ -20,7 +20,7 @@ services:
         networks:
             - backend-network
         ports:
-            - '3000:3000'
+            - '3000:3000'       # FOR DEBUG !!!
         volumes:
             - nodejs-files:/app/files
         environment:
@@ -43,9 +43,32 @@ services:
             MYSQL_ROOT_PASSWORD: rootpassword
             MYSQL_DATABASE: file_server
 
-    # php-fpm:
+    php-fpm:
+        build: ./php-app
+        networks:
+            - backend-network
+        depends_on:
+            - postgres-db
+        volumes:
+            - ./php_app:/var/www/html
+        environment:
+            POSTGRES_HOST: postgres-db
+            POSTGRES_USER: root
+            POSTGRES_PASSWORD: rootpassword
+            POSTGRES_DB: php_app
 
-    # postgres-db:
+    postgres-db:
+        image: postgres:15
+        restart: unless-stopped
+        networks:
+            - backend-network
+        volumes:
+            - postgres_data:/var/lib/postgresql/data
+            - ./db-scripts/init-postgres.sql:/docker-entrypoint-initdb.d/init-postgres.sql
+        environment:
+            POSTGRES_USER: root
+            POSTGRES_PASSWORD: rootpassword
+            POSTGRES_DB: php_app
 
 volumes:
     mysql_data:

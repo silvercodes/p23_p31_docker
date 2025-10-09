@@ -97,6 +97,17 @@ app.get('/files', async (req, res) => {
     
 });
 
+app.get('/download/:filename', (req, res) => {
+    const filename = req.params.filename;
+    const filePath = path.join('/app/files', filename);
+
+    if (! fs.existsSync(filePath)) {
+        return res.status(404).json({error: 'File not found'});
+    }
+
+    res.download(filePath);
+});
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log('🟢', `File server started on port ${port}`);
