@@ -1,0 +1,86 @@
+
+services:
+    nginx:
+        build: ./nginx
+        ports:
+            - "80:80"
+        depends_on:
+            - nodejs-api
+            - php-fpm
+        networks:
+            - frontend-network
+            - backend-network
+        volumes:
+            - nodejs-files:/var/www/files:ro
+
+    nodejs-api:
+        build: ./nodejs-api
+        depends_on:
+            mysql-db:
+                condition: service_healthy
+        networks:
+            - backend-network
+        ports:
+            - '3000:3000'       # FOR DEBUG !!!
+        volumes:
+            - nodejs-files:/app/files
+        environment:
+            MYSQL_HOST: mysql-db
+            MYSQL_USER: root
+            MYSQL_ROOT_PASSWORD: rootpassword
+            MYSQL_DB: file_server
+
+    mysql-db:
+        image: mysql:8.0
+        restart: unless-stopped
+        ports:
+            - "9999:3306"       # FOR DEBUG !!!
+        networks:
+            - backend-network
+        volumes:
+            - mysql_data:/var/lib/mysql
+            - ./db-scripts/init-mysql.sql:/docker-entrypoint-initdb.d/init-mysql.sql
+        environment:
+            MYSQL_ROOT_PASSWORD: rootpassword
+            MYSQL_DATABASE: file_server
+        healthcheck:
+            test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${MYSQL_ROOT_PASSWORD}"]
+            start_period: 5s
+            interval: 5s
+            timeout: 5s
+            retries: 5
+    php-fpm:
+        build: ./php-app
+        networks:
+            - backend-network
+        depends_on:
+            - postgres-db
+        volumes:
+            - ./php-app:/var/www/html
+        environment:
+            POSTGRES_HOST: postgres-db
+            POSTGRES_USER: root
+            POSTGRES_PASSWORD: rootpassword
+            POSTGRES_DB: php_app
+
+    postgres-db:
+        image: postgres:15
+        restart: unless-stopped
+        networks:
+            - backend-network
+        volumes:
+            - postgres_data:/var/lib/postgresql/data
+            - ./db-scripts/init-postgres.sql:/docker-entrypoint-initdb.d/init-postgres.sql
+        environment:
+            POSTGRES_USER: root
+            POSTGRES_PASSWORD: rootpassword
+            POSTGRES_DB: php_app
+
+volumes:
+    mysql_data:
+    postgres_data:
+    nodejs-files:
+
+networks:
+    frontend-network:
+    backend-network:
