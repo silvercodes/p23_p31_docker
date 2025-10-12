@@ -1,0 +1,435 @@
+2025-10-12T21:01:44.145232Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:01:44.400808Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.4.0) starting as process 1
+2025-10-12T21:01:44.400844Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8 logical CPUs.
+2025-10-12T21:01:44.400863Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8195895296 bytes of physical memory.
+2025-10-12T21:01:44.407121Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:01:44.437148Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:01:45.602220Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-10-12T21:01:46.021393Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-10-12T21:01:46.021948Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-10-12T21:01:46.032118Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-10-12T21:01:46.034393Z 0 [ERROR] [MY-000067] [Server] unknown variable 'innodb_log_file_size=1G'.
+2025-10-12T21:01:46.035149Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:01:47.659713Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.4.0)  MySQL Community Server - GPL.
+2025-10-12T21:01:47.659978Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:01:48.968237Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:01:49.182964Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.4.0) starting as process 1
+2025-10-12T21:01:49.182997Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8 logical CPUs.
+2025-10-12T21:01:49.183015Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8195895296 bytes of physical memory.
+2025-10-12T21:01:49.189048Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:01:49.222430Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:01:50.493340Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-10-12T21:01:51.147664Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-10-12T21:01:51.148236Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-10-12T21:01:51.170804Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-10-12T21:01:51.173850Z 0 [ERROR] [MY-000067] [Server] unknown variable 'innodb_log_file_size=1G'.
+2025-10-12T21:01:51.174826Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:01:52.755684Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.4.0)  MySQL Community Server - GPL.
+2025-10-12T21:01:52.756051Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:01:54.132548Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:01:54.346111Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.4.0) starting as process 1
+2025-10-12T21:01:54.346160Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8 logical CPUs.
+2025-10-12T21:01:54.346182Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8195895296 bytes of physical memory.
+2025-10-12T21:01:54.351035Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:01:54.375893Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:01:55.720238Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-10-12T21:01:56.447780Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-10-12T21:01:56.448501Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-10-12T21:01:56.480026Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-10-12T21:01:56.483292Z 0 [ERROR] [MY-000067] [Server] unknown variable 'innodb_log_file_size=1G'.
+2025-10-12T21:01:56.484332Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:01:58.111940Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.4.0)  MySQL Community Server - GPL.
+2025-10-12T21:01:58.112329Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:01:59.575242Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:01:59.784723Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.4.0) starting as process 1
+2025-10-12T21:01:59.784769Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8 logical CPUs.
+2025-10-12T21:01:59.784790Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8195895296 bytes of physical memory.
+2025-10-12T21:01:59.790055Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:01:59.816206Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:02:01.096802Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-10-12T21:02:01.777532Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-10-12T21:02:01.778142Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-10-12T21:02:01.801993Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-10-12T21:02:01.804951Z 0 [ERROR] [MY-000067] [Server] unknown variable 'innodb_log_file_size=1G'.
+2025-10-12T21:02:01.805886Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:02:03.381114Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.4.0)  MySQL Community Server - GPL.
+2025-10-12T21:02:03.381487Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:02:05.205787Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:02:05.420566Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.4.0) starting as process 1
+2025-10-12T21:02:05.420601Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8 logical CPUs.
+2025-10-12T21:02:05.420620Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8195895296 bytes of physical memory.
+2025-10-12T21:02:05.425204Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:02:05.452280Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:02:06.790135Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-10-12T21:02:07.437592Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-10-12T21:02:07.438663Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-10-12T21:02:07.460326Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-10-12T21:02:07.463941Z 0 [ERROR] [MY-000067] [Server] unknown variable 'innodb_log_file_size=1G'.
+2025-10-12T21:02:07.465008Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:02:09.037842Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.4.0)  MySQL Community Server - GPL.
+2025-10-12T21:02:09.038258Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:02:11.676313Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:02:11.899488Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.4.0) starting as process 1
+2025-10-12T21:02:11.899532Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8 logical CPUs.
+2025-10-12T21:02:11.899554Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8195895296 bytes of physical memory.
+2025-10-12T21:02:11.903806Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:02:11.927361Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:02:13.444717Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-10-12T21:02:14.234445Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-10-12T21:02:14.235058Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-10-12T21:02:14.262052Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-10-12T21:02:14.265506Z 0 [ERROR] [MY-000067] [Server] unknown variable 'innodb_log_file_size=1G'.
+2025-10-12T21:02:14.266482Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:02:15.813795Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.4.0)  MySQL Community Server - GPL.
+2025-10-12T21:02:15.814142Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:02:20.047495Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:02:20.262020Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.4.0) starting as process 1
+2025-10-12T21:02:20.262061Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8 logical CPUs.
+2025-10-12T21:02:20.262081Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8195895296 bytes of physical memory.
+2025-10-12T21:02:20.266924Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:02:20.292897Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:02:21.646611Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-10-12T21:02:22.446450Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-10-12T21:02:22.447042Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-10-12T21:02:22.482158Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-10-12T21:02:22.528591Z 0 [ERROR] [MY-000067] [Server] unknown variable 'innodb_log_file_size=1G'.
+2025-10-12T21:02:22.529579Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:02:24.065774Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.4.0)  MySQL Community Server - GPL.
+2025-10-12T21:02:24.066106Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:02:31.499743Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:02:31.727268Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.4.0) starting as process 1
+2025-10-12T21:02:31.727308Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8 logical CPUs.
+2025-10-12T21:02:31.727328Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8195895296 bytes of physical memory.
+2025-10-12T21:02:31.733267Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:02:31.760860Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:02:33.112405Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-10-12T21:02:33.795917Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-10-12T21:02:33.796404Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-10-12T21:02:33.820522Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-10-12T21:02:33.824004Z 0 [ERROR] [MY-000067] [Server] unknown variable 'innodb_log_file_size=1G'.
+2025-10-12T21:02:33.825099Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:02:35.411397Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.4.0)  MySQL Community Server - GPL.
+2025-10-12T21:02:35.411727Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:02:49.238739Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:02:49.479923Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.4.0) starting as process 1
+2025-10-12T21:02:49.479961Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8 logical CPUs.
+2025-10-12T21:02:49.479980Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8195895296 bytes of physical memory.
+2025-10-12T21:02:49.486136Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:02:49.515055Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:02:50.948831Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-10-12T21:02:51.633493Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-10-12T21:02:51.634102Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-10-12T21:02:51.659023Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-10-12T21:02:51.662246Z 0 [ERROR] [MY-000067] [Server] unknown variable 'innodb_log_file_size=1G'.
+2025-10-12T21:02:51.663193Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:02:53.244724Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.4.0)  MySQL Community Server - GPL.
+2025-10-12T21:02:53.245072Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:03:16.976538Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.
+2025-10-12T21:03:16.977694Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 9.4.0) initializing of server in progress as process 81
+2025-10-12T21:03:16.986330Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:03:17.015988Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:03:18.700704Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-10-12T21:03:21.602102Z 0 [ERROR] [MY-000067] [Server] unknown variable 'innodb_log_file_size=1G'.
+2025-10-12T21:03:21.602613Z 0 [ERROR] [MY-013236] [Server] The designated data directory /var/lib/mysql/ is unusable. You can remove all files that the server added to it.
+2025-10-12T21:03:21.602736Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:03:23.014680Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
+2025-10-12T21:03:24.275314Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:03:24.492887Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.4.0) starting as process 1
+2025-10-12T21:03:24.492920Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8 logical CPUs.
+2025-10-12T21:03:24.492938Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8195895296 bytes of physical memory.
+2025-10-12T21:03:24.498822Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:03:24.526235Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:03:25.868057Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+mysqld: Table 'mysql.plugin' doesn't exist
+2025-10-12T21:03:26.161338Z 0 [ERROR] [MY-010735] [Server] Could not open the mysql.plugin table. Please perform the MySQL upgrade procedure.
+2025-10-12T21:03:26.162002Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:26.162479Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:26.162956Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:26.163559Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:26.164106Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:26.164593Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:26.165013Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:26.461231Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-10-12T21:03:26.549709Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-10-12T21:03:26.570654Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-10-12T21:03:26.571446Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-10-12T21:03:26.588268Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-10-12T21:03:26.588827Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:26.589196Z 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-001146 - Table 'mysql.component' doesn't exist
+2025-10-12T21:03:26.589368Z 0 [Warning] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-003543 - The mysql.component table is missing or has an incorrect definition.
+2025-10-12T21:03:26.589625Z 0 [ERROR] [MY-000067] [Server] unknown variable 'innodb_log_file_size=1G'.
+2025-10-12T21:03:26.590526Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:03:27.731623Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.4.0)  MySQL Community Server - GPL.
+2025-10-12T21:03:27.731944Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:03:29.075057Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:03:29.301591Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.4.0) starting as process 1
+2025-10-12T21:03:29.301632Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8 logical CPUs.
+2025-10-12T21:03:29.301652Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8195895296 bytes of physical memory.
+2025-10-12T21:03:29.308045Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:03:29.340384Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:03:30.687345Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+mysqld: Table 'mysql.plugin' doesn't exist
+2025-10-12T21:03:30.992078Z 0 [ERROR] [MY-010735] [Server] Could not open the mysql.plugin table. Please perform the MySQL upgrade procedure.
+2025-10-12T21:03:30.992660Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:30.993123Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:30.993559Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:30.994151Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:30.994593Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:30.995019Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:30.995444Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:31.170965Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-10-12T21:03:31.306116Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-10-12T21:03:31.322046Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-10-12T21:03:31.322728Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-10-12T21:03:31.355183Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-10-12T21:03:31.355942Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:31.356438Z 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-001146 - Table 'mysql.component' doesn't exist
+2025-10-12T21:03:31.356743Z 0 [Warning] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-003543 - The mysql.component table is missing or has an incorrect definition.
+2025-10-12T21:03:31.357200Z 0 [ERROR] [MY-000067] [Server] unknown variable 'innodb_log_file_size=1G'.
+2025-10-12T21:03:31.358112Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:03:32.919549Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.4.0)  MySQL Community Server - GPL.
+2025-10-12T21:03:32.919860Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:03:34.340018Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:03:34.576860Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.4.0) starting as process 1
+2025-10-12T21:03:34.576902Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8 logical CPUs.
+2025-10-12T21:03:34.576923Z 0 [System] [MY-015590] [Server] MySQL Server has access to 8195895296 bytes of physical memory.
+2025-10-12T21:03:34.582220Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:03:34.608685Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:03:36.028648Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+mysqld: Table 'mysql.plugin' doesn't exist
+2025-10-12T21:03:36.307504Z 0 [ERROR] [MY-010735] [Server] Could not open the mysql.plugin table. Please perform the MySQL upgrade procedure.
+2025-10-12T21:03:36.307877Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:36.308249Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:36.308586Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:36.308986Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:36.309277Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:36.309583Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:36.309865Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:36.486741Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-10-12T21:03:36.608429Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-10-12T21:03:36.625975Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-10-12T21:03:36.626685Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-10-12T21:03:36.654988Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-10-12T21:03:36.655785Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-10-12T21:03:36.656385Z 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-001146 - Table 'mysql.component' doesn't exist
+2025-10-12T21:03:36.656698Z 0 [Warning] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-003543 - The mysql.component table is missing or has an incorrect definition.
+2025-10-12T21:03:36.657114Z 0 [ERROR] [MY-000067] [Server] unknown variable 'innodb_log_file_size=1G'.
+2025-10-12T21:03:36.658028Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:03:38.243129Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.4.0)  MySQL Community Server - GPL.
+2025-10-12T21:03:38.243470Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:09:34.155324Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2025-10-12T21:09:34.162842Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.43) starting as process 1
+2025-10-12T21:09:34.169184Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:09:34.199905Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=2147483648. Please use innodb_redo_log_capacity instead.
+2025-10-12T21:09:34.205069Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:09:35.683220Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80043. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:09:36.730670Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:09:36.730986Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:09:36.731161Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:09:36.731758Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.43)  MySQL Community Server - GPL.
+2025-10-12T21:09:38.106860Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2025-10-12T21:09:38.112982Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.43) starting as process 1
+2025-10-12T21:09:38.117876Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:09:38.141678Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=2147483648. Please use innodb_redo_log_capacity instead.
+2025-10-12T21:09:38.148784Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:09:39.541051Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80043. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:09:40.521722Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:09:40.522245Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:09:40.522493Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:09:40.523104Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.43)  MySQL Community Server - GPL.
+2025-10-12T21:09:41.916227Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2025-10-12T21:09:41.922563Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.43) starting as process 1
+2025-10-12T21:09:41.927740Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:09:41.950542Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=2147483648. Please use innodb_redo_log_capacity instead.
+2025-10-12T21:09:41.953192Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:09:43.220293Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80043. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:09:44.439581Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:09:44.440155Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:09:44.440511Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:09:44.441237Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.43)  MySQL Community Server - GPL.
+2025-10-12T21:09:45.999589Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2025-10-12T21:09:46.005325Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.43) starting as process 1
+2025-10-12T21:09:46.010427Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:09:46.031976Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=2147483648. Please use innodb_redo_log_capacity instead.
+2025-10-12T21:09:46.034980Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:09:47.307523Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80043. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:09:48.443740Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:09:48.444214Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:09:48.444499Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:09:48.445167Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.43)  MySQL Community Server - GPL.
+2025-10-12T21:09:50.386470Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2025-10-12T21:09:50.392846Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.43) starting as process 1
+2025-10-12T21:09:50.398163Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:09:50.428779Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=2147483648. Please use innodb_redo_log_capacity instead.
+2025-10-12T21:09:50.431895Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:09:51.848036Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80043. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:09:52.788152Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:09:52.788680Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:09:52.788935Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:09:52.789541Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.43)  MySQL Community Server - GPL.
+2025-10-12T21:27:17.280232Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:27:17.600560Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.4.6) starting as process 1
+2025-10-12T21:27:17.606715Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:27:17.632266Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=2147483648. Please use innodb_redo_log_capacity instead.
+2025-10-12T21:27:17.634005Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:27:18.971602Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80406. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:27:19.650640Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:27:19.651099Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:27:19.651328Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:27:19.652601Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.6)  MySQL Community Server - GPL.
+2025-10-12T21:27:19.652865Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:27:20.845772Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:27:21.067222Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.4.6) starting as process 1
+2025-10-12T21:27:21.072233Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:27:21.098753Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=2147483648. Please use innodb_redo_log_capacity instead.
+2025-10-12T21:27:21.100322Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:27:22.271050Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80406. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:27:22.897302Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:27:22.897746Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:27:22.897971Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:27:22.899293Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.6)  MySQL Community Server - GPL.
+2025-10-12T21:27:22.899543Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:27:24.124530Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:27:24.348939Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.4.6) starting as process 1
+2025-10-12T21:27:24.355438Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:27:24.378915Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=2147483648. Please use innodb_redo_log_capacity instead.
+2025-10-12T21:27:24.380532Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:27:25.570882Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80406. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:27:26.281765Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:27:26.282255Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:27:26.282495Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:27:26.283979Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.6)  MySQL Community Server - GPL.
+2025-10-12T21:27:26.284328Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:27:27.668841Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:27:27.888942Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.4.6) starting as process 1
+2025-10-12T21:27:27.895276Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:27:27.922786Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=2147483648. Please use innodb_redo_log_capacity instead.
+2025-10-12T21:27:27.924424Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:27:29.150104Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80406. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:27:29.762850Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:27:29.763197Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:27:29.763394Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:27:29.764837Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.6)  MySQL Community Server - GPL.
+2025-10-12T21:27:29.765080Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:27:31.562563Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:27:31.791085Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.4.6) starting as process 1
+2025-10-12T21:27:31.797560Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:27:31.824428Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=2147483648. Please use innodb_redo_log_capacity instead.
+2025-10-12T21:27:31.826401Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:27:33.101153Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80406. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:27:33.739846Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:27:33.740336Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:27:33.740644Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:27:33.742220Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.6)  MySQL Community Server - GPL.
+2025-10-12T21:27:33.742683Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:27:36.326291Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:27:36.566571Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.4.6) starting as process 1
+2025-10-12T21:27:36.572668Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:27:36.607576Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=2147483648. Please use innodb_redo_log_capacity instead.
+2025-10-12T21:27:36.609458Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:27:37.950267Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80406. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:27:38.561301Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:27:38.561652Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:27:38.561821Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:27:38.563262Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.6)  MySQL Community Server - GPL.
+2025-10-12T21:27:38.563541Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:27:42.737310Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:27:42.989010Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.4.6) starting as process 1
+2025-10-12T21:27:42.995648Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:27:43.024197Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=2147483648. Please use innodb_redo_log_capacity instead.
+2025-10-12T21:27:43.025962Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:27:44.353603Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80406. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:27:44.929270Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:27:44.929609Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:27:44.929851Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:27:44.931198Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.6)  MySQL Community Server - GPL.
+2025-10-12T21:27:44.931461Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:31:43.127419Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:31:43.445367Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.4.6) starting as process 1
+2025-10-12T21:31:43.451199Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:31:43.486303Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:31:44.707119Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80406. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:31:45.192529Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:31:45.193046Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:31:45.193331Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:31:45.196274Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.6)  MySQL Community Server - GPL.
+2025-10-12T21:31:45.196582Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:31:46.404296Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:31:46.622205Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.4.6) starting as process 1
+2025-10-12T21:31:46.628332Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:31:46.656551Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:31:47.850065Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80406. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:31:48.352578Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:31:48.353098Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:31:48.353493Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:31:48.354946Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.6)  MySQL Community Server - GPL.
+2025-10-12T21:31:48.355307Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:31:49.558748Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:31:49.775262Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.4.6) starting as process 1
+2025-10-12T21:31:49.779550Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:31:49.804362Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:31:51.075970Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80406. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:31:51.559087Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:31:51.559603Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:31:51.559823Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:31:51.561339Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.6)  MySQL Community Server - GPL.
+2025-10-12T21:31:51.561542Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:31:53.096235Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:31:53.344725Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.4.6) starting as process 1
+2025-10-12T21:31:53.350843Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:31:53.381692Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:31:55.485998Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80406. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:31:55.787526Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:31:55.787976Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:31:55.788162Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:31:55.789809Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.6)  MySQL Community Server - GPL.
+2025-10-12T21:31:55.790065Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:34:52.846181Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:34:53.174950Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.4.6) starting as process 1
+2025-10-12T21:34:53.181775Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:34:53.219654Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:34:54.499456Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80406. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:34:54.961092Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:34:54.961597Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:34:54.961913Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:34:54.964544Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.6)  MySQL Community Server - GPL.
+2025-10-12T21:34:54.964944Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:34:56.160233Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:34:56.374514Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.4.6) starting as process 1
+2025-10-12T21:34:56.379913Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:34:56.408561Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:34:57.897097Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80406. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:34:58.121035Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:34:58.121540Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:34:58.121849Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:34:58.123205Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.6)  MySQL Community Server - GPL.
+2025-10-12T21:34:58.123483Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2025-10-12T21:34:59.581060Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-10-12T21:34:59.793128Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.4.6) starting as process 1
+2025-10-12T21:34:59.798642Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2025-10-12T21:34:59.829402Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-10-12T21:35:01.052380Z 1 [ERROR] [MY-014061] [InnoDB] Invalid MySQL server downgrade: Cannot downgrade from 90400 to 80406. Downgrade is only permitted between patch releases.
+mysqld: Can't open file: 'mysql.ibd' (errno: 0 - )
+2025-10-12T21:35:01.525674Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2025-10-12T21:35:01.526206Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2025-10-12T21:35:01.526536Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-10-12T21:35:01.528153Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.6)  MySQL Community Server - GPL.
+2025-10-12T21:35:01.528423Z 0 [System] [MY-015016] [Server] MySQL Server - end.

@@ -1,7 +1,10 @@
 
 services:
     mysql:
-        image: mysql:latest
+        image: mysql_dev_img
+        build:
+            context: .
+            dockerfile: Dockerfile
         container_name: mysql_cnt
         hostname: mysql
         restart: always     #unless-stopped
@@ -21,14 +24,8 @@ services:
             # 2. Хранение данных в папке на хосте
             - ./data:/var/lib/mysql
 
-            # Логи
-            - ./logs:/var/log/mysql
-
             # стартовый скрипт
             - ./init/init.sql:/docker-entrypoint-initdb.d/init.sql
-
-            # конфигурации mysql
-            - ./conf.d:/etc/mysql/conf.d:ro
         healthcheck:
             test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-prootpassword"]
             start_period: 3s
